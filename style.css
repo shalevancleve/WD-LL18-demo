@@ -4,7 +4,7 @@
 
 body {
   background: #eceef0;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: #222;
   margin: 0;
   padding: 0;
@@ -21,8 +21,11 @@ main {
   gap: 32px;
 }
 
-h1, h2, h3, label {
-  font-family: 'Lora', serif;
+h1,
+h2,
+h3,
+label {
+  font-family: "Lora", serif;
 }
 
 h1 {
@@ -37,13 +40,18 @@ h1 {
   justify-content: center;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-weight: 700;
   margin-bottom: 14px;
   margin-top: 0;
 }
-h2 { font-size: 28px; }
-h3 { font-size: 20px; }
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 20px;
+}
 
 p {
   margin: 0;
@@ -62,11 +70,12 @@ p {
   font-family: inherit;
   font-weight: 800;
   letter-spacing: 1px;
-  box-shadow: 0 4px 20px rgba(90, 110, 255, 0.10);
+  box-shadow: 0 4px 20px rgba(90, 110, 255, 0.1);
   cursor: pointer;
   transition: background 0.18s, transform 0.12s, box-shadow 0.18s;
 }
-#random-btn:hover, #random-btn:focus {
+#random-btn:hover,
+#random-btn:focus {
   background: linear-gradient(90deg, #7092ff 0%, #5a6fff 100%);
   transform: translateY(-2px) scale(1.04);
   box-shadow: 0 8px 32px rgba(90, 110, 255, 0.16);
@@ -79,7 +88,7 @@ p {
 #recipe-display {
   background: #fff;
   border-radius: 14px;
-  box-shadow: 0 2px 8px rgba(70,100,220,0.06);
+  box-shadow: 0 2px 8px rgba(70, 100, 220, 0.06);
   padding: 24px;
 }
 #recipe-display img {
@@ -89,7 +98,7 @@ p {
   border-radius: 12px;
   display: block;
   margin: 0 0 24px;
-  box-shadow: 0 2px 8px rgba(60,90,180,0.10);
+  box-shadow: 0 2px 8px rgba(60, 90, 180, 0.1);
 }
 #recipe-display ul {
   padding-left: 22px;
@@ -105,7 +114,7 @@ p {
 .remix-container {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(70,100,220,0.06);
+  box-shadow: 0 2px 8px rgba(70, 100, 220, 0.06);
   padding: 18px;
   display: flex;
   flex-direction: column;
@@ -142,7 +151,7 @@ p {
   font-size: 16px;
   font-weight: 700;
   border: none;
-  box-shadow: 0 2px 8px rgba(70,100,220,0.07);
+  box-shadow: 0 2px 8px rgba(70, 100, 220, 0.07);
   cursor: pointer;
   transition: background 0.18s;
   align-self: center;
@@ -234,13 +243,14 @@ p {
   }
 }
 
-#saved-recipes-list {
+#saved-recipes-list,
+#saved-remix-list {
   list-style: none;
   padding: 0;
   margin: 0;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(70,100,220,0.06);
+  box-shadow: 0 2px 8px rgba(70, 100, 220, 0.06);
   overflow: hidden;
 }
 
